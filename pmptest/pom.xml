@@ -220,6 +220,7 @@
 					<argLine>-Dfile.encoding=UTF-8</argLine>
 				</configuration>
 			</plugin>
+			<!--
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -240,6 +241,7 @@
                     </execution>
                 </executions>
             </plugin>
+			-->
             <plugin>
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
@@ -457,7 +459,7 @@
 		</dependency>
 		
 	
-	 <!-- https://mvnrepository.com/artifact/org.json/json -->
+	 <!-- https://mvnrepository.com/artifact/org.json/json -->	  
 <dependency>
     <groupId>org.json</groupId>
     <artifactId>json</artifactId>
@@ -478,19 +480,21 @@
 </dependency>
 
 <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<!--	  
 <dependency>
     <groupId>io.rest-assured</groupId>
     <artifactId>rest-assured</artifactId>
     <version>4.3.3</version>
     
 </dependency>
-
+-->	  
+  <!--
   <dependency>
          <groupId>com.aventstack</groupId>
          <artifactId>extentreports</artifactId>
          <version>3.1.5</version>
       </dependency>
-
+      -->
       <!-- https://mvnrepository.com/artifact/org.junit.platform/junit-platform-runner 
          <dependency> <groupId>org.junit.platform</groupId> <artifactId>junit-platform-runner</artifactId> 
          <version>1.7.0</version> <scope>test</scope> </dependency> -->
@@ -566,6 +570,7 @@
     <artifactId>minio</artifactId>
     <version>8.4.3</version>
 </dependency>
+	  
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-s3</artifactId>
@@ -597,11 +602,13 @@
 			<artifactId>rest-assured</artifactId>
 			<version>5.3.0</version>
 		</dependency>
+	    <!--
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
 			<artifactId>log4j-api</artifactId>
 			<version>2.11.1</version>
 		</dependency>
+	    -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
@@ -612,11 +619,13 @@
 		    <artifactId>javax.ws.rs-api</artifactId>
 		    <version>2.1.1</version>
 		</dependency>
+	    <!--
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20230227</version>
 		</dependency>
+	    -->
 		<dependency>
 			<groupId>org.keycloak</groupId>
 			<artifactId>keycloak-admin-client</artifactId>
@@ -643,13 +652,13 @@
 		    <version>2.6</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
+<!--	  
 <dependency>
     <groupId>com.amazonaws</groupId>
     <artifactId>aws-java-sdk-s3</artifactId>
     <version>1.12.470</version>
 </dependency>
-    
-  
+-->	  
 	</dependencies>
 
 </project>
